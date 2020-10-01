@@ -9,19 +9,23 @@ int main()
     scanf("%f %c %f", &num1, &op, &num2);
     switch(op)
     {
+            //This case is for Sum
         case '+': 
             result = num1 + num2;
             break;
 
         case '-': 
+            //This case is for Subtraction
             result = num1 - num2;
             break;
 
         case '*': 
+            //This case is for Multiplication
             result = num1 * num2;
             break;
 
         case '/': 
+            //This case is for Division
             result = num1 / num2;
             break;
 
